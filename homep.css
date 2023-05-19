@@ -1,0 +1,28 @@
+body {
+    background: #1E1E1E;
+    font-family: "Marvel", sans-serif;
+    width: 1680px;
+   
+}
+
+#navlinks .nav-link:hover {
+    color: #f67dea;
+}
+
+#mainNav .navbar-brand {
+    color: #f67dea;
+    margin-top: 5px;
+    font-weight: bold;
+    border: 2px solid #f67dea;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: -1px;
+    padding-bottom: -1px;
+}
+
+#buttonnav .navbar-toggler {
+    color: #f67dea;
+}
+
+
+
