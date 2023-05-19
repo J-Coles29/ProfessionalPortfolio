@@ -5,12 +5,23 @@ body {
    
 }
 
+#navlinks {
+    font-size: 2.2rem;
+}
+
 #navlinks .nav-link:hover {
     color: #f67dea;
 }
 
+#mainNav {
+    font-family: "Marvel";
+    
+    
+}
+
 #mainNav .navbar-brand {
     color: #f67dea;
+    font-size: 2.2rem;
     margin-top: 5px;
     font-weight: bold;
     border: 2px solid #f67dea;
@@ -22,6 +33,7 @@ body {
 
 #buttonnav .navbar-toggler {
     color: #f67dea;
+    font-size: 2.2rem;
 }
 
 
