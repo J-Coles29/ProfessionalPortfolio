@@ -5,23 +5,39 @@ body {
    
 }
 
-#navlinks {
-    font-size: 2.2rem;
-}
 
 #navlinks .nav-link:hover {
     color: #f67dea;
+    
 }
 
 #mainNav {
     font-family: "Marvel";
+    font-size: 1.2rem;
+    color: #fcd7f9;
+}
+
+#navlinks .navbar-nav {
+    text-decoration-line: line-through;
+    text-decoration-color: #fcd7f9;
+    text-decoration-thickness: 0.5px;
+    margin-top: -13px;
     
-    
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav li:hover {
+    text-decoration-line: line-through;
+    text-decoration-color: #ce0ebb;
 }
 
 #mainNav .navbar-brand {
     color: #f67dea;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     margin-top: 5px;
     font-weight: bold;
     border: 2px solid #f67dea;
@@ -33,7 +49,7 @@ body {
 
 #buttonnav .navbar-toggler {
     color: #f67dea;
-    font-size: 1.2rem;
+    font-size: 2.0rem;
 }
 
 #tree1left {
