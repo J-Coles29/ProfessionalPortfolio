@@ -42,7 +42,7 @@ nav li:hover {
 #mainNav .navbar-brand {
     color: #fcd7f9;
     font-size: 1.5rem;
-    margin-top: -20px;
+    margin-top: 10px;
     font-weight: bold;
     border: 2px solid #f67dea;
     padding-left: 5px;
