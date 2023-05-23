@@ -54,7 +54,9 @@ nav li:hover {
 #buttonnav .navbar-toggler {
     color: #fcd7f9;
     font-size: 2.0rem;
+    backdrop-filter: blur(15px);
 }
+
 
 #tree1left {
     position: absolute;
@@ -99,8 +101,8 @@ nav li:hover {
   background: url("blossom.png");
   background-size: 275px;
   opacity: 0;
-  -webkit-animation: loader 8s infinite linear;
-  -moz-animation: loader 8s infinite linear;
+  -webkit-animation: loader 10s infinite linear;
+  -moz-animation: loader 10s infinite linear;
   animation: loader 10s infinite linear;
 }
 .loader span:nth-child(5n+5) {
@@ -110,21 +112,21 @@ nav li:hover {
 }
 
 .loader span:nth-child(3n+2) {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+
+.loader span:nth-child(2n+5) {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
 
-.loader span:nth-child(2n+5) {
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-  animation-delay: 1.7s;
-}
-
 .loader span:nth-child(3n+10) {
-  -webkit-animation-delay: 2.7s;
-  -moz-animation-delay: 2.7s;
-  animation-delay: 2.7s;
+  -webkit-animation-delay: 2.0s;
+  -moz-animation-delay: 2.0s;
+  animation-delay: 2.0s;
 }
 
 .loader span:nth-child(7n+2) {
