@@ -63,14 +63,14 @@ nav li:hover {
 
 
 #app{
-  height: 900px;
-  width: 800px;
+  height: 100vh;
+  width: 100vw;
 
 }
 
 .container {
-  width: 1000px;
-  height: 1000px;
+  width: 800px;
+  height: 950px;
   //position: fixed;
   overflow: hidden;
   margin-left: -100px;
@@ -78,9 +78,9 @@ nav li:hover {
 
 .loader {
   width: 500px;
-  margin-top: 450px;
+  margin-top: 170px;
   margin-left: 100px;
-  
+  opacity: 0.15;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -88,117 +88,148 @@ nav li:hover {
 }
 
 .loader span {
-  width: 520px;
+  width: 500px;
   height: 150px;
   position:: absolute;
   //margin: -280px 40px 54px -34px;
   background: url("blossom.png");
   background-size: 275px;
   opacity: 0;
-  -webkit-animation: loader 7s infinite linear;
-  -moz-animation: loader 7s infinite linear;
-  animation: loader 6s infinite linear;
+  -webkit-animation: loader 8s infinite linear;
+  -moz-animation: loader 8s infinite linear;
+  animation: loader 10s infinite linear;
+}
+.loader span:nth-child(5n+5) {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 
-.loader span:nth-child(5n+5) {
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
-   animation-delay: 1s}
+.loader span:nth-child(3n+2) {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
 
-/*.loader span:nth-child(3n+2) {
-  -webkit-animation-delay: 0s;
-  -moz-animation-delay: 1s;
-   animation-delay: 2s;
-}*/
+.loader span:nth-child(2n+5) {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.loader span:nth-child(3n+10) {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+  animation-delay: 2.7s;
+}
+
+.loader span:nth-child(7n+2) {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+.loader span:nth-child(4n+5) {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+  animation-delay: 5.5s;
+}
+
+.loader span:nth-child(3n+7) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
 
 @keyframes loader {
   0% {
-    width: 220px;
-    height: 220px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 0;
 
     -webkit-transform: translate(0, 0vh) rotateZ(0deg);
   }
   25% {
-    width: 220px;
-    height: 220px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 1;
 
     -webkit-transform: translate(0, 25vh) rotateZ(90deg);
   }
   75% {
-    width: 220px;
-    height: 220px;
-    opacity: 0.15;
-
-    -webkit-transform: translate(5vw, 75vh) rotateZ(180deg);
-  }
-  100% {
-    width: 220px;
-    height: 220px;
-    opacity: 0.15;
-
-    -webkit-transform: translate(10vw, 100vh) rotateZ(270deg);
-  }
-}
-
-@-webkit-keyframes loader {
-  100% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
-
-    -webkit-transform: translate(0, 0vh) rotateZ(8deg);
-  } 
-  25% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
-
-    -webkit-transform: translate(0, 25vh) rotateZ(90deg);
-  }
-  75% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 1;
 
     -webkit-transform: translate(5vw, 75vh) rotateZ(270deg);
   }
   100% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 0;
+
+    -webkit-transform: translate(10vw, 100vh) rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    width: 128px;
+    height: 128px;
+    opacity: 0;
+
+    -webkit-transform: translate(0, 0vh) rotateZ(0deg);
+  }
+  25% {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+
+    -webkit-transform: translate(0, 25vh) rotateZ(90deg);
+  }
+  75% {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+
+    -webkit-transform: translate(5vw, 75vh) rotateZ(270deg);
+  }
+  100% {
+    width: 128px;
+    height: 128px;
+    opacity: 0;
 
     -webkit-transform: translate(10vw, 100vh) rotateZ(360deg);
   }
 }
 
 @-moz-keyframes loader {
-  50% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+  0% {
+    width: 128px;
+    height: 128px;
+    opacity: 0;
 
-    -webkit-transform: translate(0, 0vh) rotateZ(5deg);
-  } 
+    -webkit-transform: translate(0, 0vh) rotateZ(0deg);
+  }
   25% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 1;
 
-    -webkit-transform: translate(0, 25vh) rotateZ(92deg);
+    -webkit-transform: translate(0, 25vh) rotateZ(90deg);
   }
   75% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 1;
 
     -webkit-transform: translate(5vw, 75vh) rotateZ(270deg);
   }
   100% {
-    width: 200px;
-    height: 200px;
-    opacity: 0.15;
+    width: 128px;
+    height: 128px;
+    opacity: 0;
 
     -webkit-transform: translate(10vw, 100vh) rotateZ(360deg);
   }
