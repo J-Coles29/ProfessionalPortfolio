@@ -5,6 +5,10 @@ body {
    
 }
 
+#mainContain .all{
+  width: device-width;
+}
+
 
 #navlinks .nav-link:hover {
     color: #f67dea;
@@ -26,6 +30,7 @@ body {
     text-decoration-color: #fcd7f9;
     text-decoration-thickness: 0.5px;
     margin-top: 15px;
+    overflow: hidden;
     
 }
 
@@ -50,6 +55,7 @@ nav li:hover {
     padding-right: 5px;
     backdrop-filter: blur(15px);
     border-radius: 4px;
+
 }
 
 #buttonnav .navbar-toggler {
@@ -62,20 +68,21 @@ nav li:hover {
 
 #tree1left {
     object-fit: fill;
-    position: layer;
+   // position: layer;
     opacity: 0.35; 
     width: 1100px;
     height: 900px;
     margin-left: -350px;
     margin-top: -550px;
+    overflow: hidden;
 }
 
 #branch1Right {
     object-fit: fill;
-    position: layer;
+   // position: layer;
     opacity: 0.35;
     margin-left: 1480px;
-    //margin-top: -50px;
+    overflow: hidden;
     margin-bottom: 50px;
 }
 
@@ -96,7 +103,7 @@ nav li:hover {
 .container {
   width: 800px;
   height: 550px;
-  position: fixed;
+ // position: fixed;
   overflow: hidden;
   margin-left: -100px;
   margin-top: -500px;
@@ -104,7 +111,7 @@ nav li:hover {
 .container2 {
   width: 500px;
   height: 1050px;
-  position: fixed;
+ // position: fixed;
   overflow: hidden;
   margin-left: 1400px;
   margin-top: -1000px;
@@ -135,7 +142,7 @@ nav li:hover {
 .loader span {
   width: 500px;
   height: 150px;
-  position:: absolute;
+ // position:: absolute;
   //margin: -280px 40px 54px -34px;
   background: url("blossom.png");
   background-size: 275px;
@@ -280,7 +287,7 @@ nav li:hover {
 .loader2 span {
   width: 500px;
   height: 150px;
-  position:: absolute;
+  //position:: absolute;
   //margin: -280px 40px 54px -34px;
   background: url("blossom.png");
   background-size: 275px;
@@ -421,4 +428,44 @@ nav li:hover {
 
     -webkit-transform: translate(10vw, 100vh) rotateZ(360deg);
   }
+}
+
+#sideInfo {
+  max-width: 100%;
+}
+
+#namePlate {
+  backdrop-filter: blur(5px);
+  font-size: 52px;
+  position: fixed;
+  width: 40px;
+  left: 1810px;
+  top: 160px;
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: center;
+  color: #fcd7f9;
+  opacity: 0.85;
+}
+
+#sidePlate {
+  backdrop-filter: blur(5px);
+  font-size: 26px;
+  position: fixed;
+  width: 20px;
+  height: 550px;
+  left: 1860px;
+  top: 130px;
+  font-family: 'Marvel';
+  font-style: italic;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #FFFFFF;
+  opacity: 0.75;
 }
