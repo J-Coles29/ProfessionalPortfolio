@@ -1,12 +1,12 @@
-Vue.component('falling');
-{
-    template: "#falling"
-};
+Vue.component('falling', {
+    template: "#falling",
+})
 
 new Vue({
     el: '#app',
     data() {
-        return {}
+        return {
+        }
     },
     computed: {},
     methods: {}
