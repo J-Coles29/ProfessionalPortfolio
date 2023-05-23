@@ -1,7 +1,7 @@
 body {
     background: #1E1E1E;
     font-family: "Marvel", sans-serif;
-    
+    overflow: hidden;
    
 }
 
@@ -14,6 +14,7 @@ body {
 #mainNav {
     font-family: "Marvel";
     font-size: 1.2rem;
+    
   
 }
 
@@ -58,13 +59,21 @@ nav li:hover {
 }
 
 
+
 #tree1left {
-    position: absolute;
+    object-fit: fill;
+    position: layer;
     opacity: 0.35; 
     width: 1100px;
     height: 900px;
     margin-left: -350px;
-    margin-top: 50px;
+    margin-top: -500px;
+}
+
+#branch1Right {
+    object-fit: fill;
+    position: layer;
+    margin-left: 1500px;
 }
 
 
@@ -76,15 +85,16 @@ nav li:hover {
 
 .container {
   width: 800px;
-  height: 950px;
-  //position: fixed;
+  height: 550px;
+  position: fixed;
   overflow: hidden;
   margin-left: -100px;
+  margin-top: -500px;
 }
 
 .loader {
   width: 500px;
-  margin-top: 170px;
+  margin-top: -170px;
   margin-left: 100px;
   opacity: 0.15;
   text-align: center;
