@@ -1,14 +1,11 @@
 body {
     background: #1E1E1E;
     font-family: "Marvel", sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
     overflow: hidden;
-   
+    
 }
-
-#mainContain .all{
-  width: device-width;
-}
-
 
 #navlinks .nav-link:hover {
     color: #f67dea;
@@ -19,7 +16,6 @@ body {
     font-family: "Marvel";
     font-size: 1.2rem;
     
-  
 }
 
 
@@ -62,28 +58,88 @@ nav li:hover {
     color: #fcd7f9;
     font-size: 2.0rem;
     backdrop-filter: blur(15px);
+   
 }
 
 
-
-#tree1left {
-    object-fit: fill;
-   // position: layer;
-    opacity: 0.35; 
-    width: 1100px;
-    height: 900px;
-    margin-left: -350px;
-    margin-top: -550px;
-    overflow: hidden;
+#branch1Right.sakura2 {
+  
+ // object-fit: contain;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.35;
+ 
+  
 }
 
 #branch1Right {
-    object-fit: fill;
-   // position: layer;
-    opacity: 0.35;
-    margin-left: 1480px;
-    overflow: hidden;
-    margin-bottom: 50px;
+  margin-top: -600px;
+  margin-left: 1500px;
+  position: fixed;
+}
+
+#tree1left.sakura {
+  
+  //object-fit: contain;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.35;
+  
+  
+}
+
+#tree1left {
+  margin-left: -350px;
+  margin-bottom: -200px;
+  
+}
+/*
+#sideInfo {
+  max-width: 100vw;
+  max-height: 100vh;
+}*/
+
+#namePlate {
+  backdrop-filter: blur(5px);
+  font-size: 2.8rem;
+ // position: flex;
+  margin-top: -1150px;
+  margin-left: 1800px;
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67px;
+  display: flex;
+  color: #fcd7f9;
+  max-width: 1%;
+  opacity: 0.85;
+}
+
+#sidePlate {
+  backdrop-filter: blur(5px);
+  font-size: 2.0rem;
+  width: 1%;
+  min-height: 550vh;
+  margin-left: 1840px;
+  margin-top: -800px;
+  font-family: 'Marvel';
+  font-style: italic;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #FFFFFF;
+  opacity: 0.75;
+}
+
+#sideInfo {
+  position: relative;
 }
 
 
@@ -103,17 +159,17 @@ nav li:hover {
 .container {
   width: 800px;
   height: 550px;
- // position: fixed;
-  overflow: hidden;
+  position: relative;
+ // overflow: hidden;: hidden;
   margin-left: -100px;
-  margin-top: -500px;
+  margin-top: -300px;
 }
 .container2 {
   width: 500px;
-  height: 1050px;
- // position: fixed;
-  overflow: hidden;
-  margin-left: 1400px;
+  height: 550px;
+  position: relative;
+  //overflow: hidden;: hidden;
+  margin-left: 1450px;
   margin-top: -1000px;
 }
 
@@ -142,8 +198,6 @@ nav li:hover {
 .loader span {
   width: 500px;
   height: 150px;
- // position:: absolute;
-  //margin: -280px 40px 54px -34px;
   background: url("blossom.png");
   background-size: 275px;
   opacity: 0;
@@ -287,8 +341,6 @@ nav li:hover {
 .loader2 span {
   width: 500px;
   height: 150px;
-  //position:: absolute;
-  //margin: -280px 40px 54px -34px;
   background: url("blossom.png");
   background-size: 275px;
   opacity: 0;
@@ -430,42 +482,4 @@ nav li:hover {
   }
 }
 
-#sideInfo {
-  max-width: 100%;
-}
 
-#namePlate {
-  backdrop-filter: blur(5px);
-  font-size: 52px;
-  position: fixed;
-  width: 40px;
-  left: 1810px;
-  top: 160px;
-  font-family: 'Marvel';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 67px;
-  text-align: center;
-  color: #fcd7f9;
-  opacity: 0.85;
-}
-
-#sidePlate {
-  backdrop-filter: blur(5px);
-  font-size: 26px;
-  position: fixed;
-  width: 20px;
-  height: 550px;
-  left: 1860px;
-  top: 130px;
-  font-family: 'Marvel';
-  font-style: italic;
-  font-weight: 700;
-  line-height: 31px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 10px;
-  color: #FFFFFF;
-  opacity: 0.75;
-}
