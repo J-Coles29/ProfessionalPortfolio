@@ -1,3 +1,11 @@
+body, html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+
 body {
     background: #1E1E1E;
     font-family: "Marvel", sans-serif;
@@ -64,25 +72,25 @@ nav li:hover {
 
 #branch1Right.sakura2 {
   
- // object-fit: contain;
-  display: flex;
+  object-fit: contain;
   max-width: 100%;
   max-height: 100%;
-  position: flex;
   opacity: 0.35;
- 
-  
+
 }
 
-#branch1Right {
-  margin-top: -600px;
-  margin-left: 1500px;
-  position: fixed;
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 100vw;
 }
+
 
 #tree1left.sakura {
   
-  //object-fit: contain;
+  object-fit: contain;
   display: flex;
   max-width: 100%;
   max-height: 100%;
@@ -105,27 +113,26 @@ nav li:hover {
 
 #namePlate {
   backdrop-filter: blur(5px);
-  font-size: 2.8rem;
- // position: flex;
-  margin-top: -1150px;
-  margin-left: 1800px;
+  font-size: 3.5vh;
+  position: flex;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
-  line-height: 67px;
+  line-height: 20px;
   display: flex;
   color: #fcd7f9;
-  max-width: 1%;
   opacity: 0.85;
 }
 
 #sidePlate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   backdrop-filter: blur(5px);
-  font-size: 2.0rem;
-  width: 1%;
-  min-height: 550vh;
-  margin-left: 1840px;
-  margin-top: -800px;
+  font-size: 1rem;
+  width: 10px;
+  height: 100vh;
   font-family: 'Marvel';
   font-style: italic;
   font-weight: 700;
@@ -134,12 +141,42 @@ nav li:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 10px;
+  margin: 30px;
   color: #FFFFFF;
   opacity: 0.75;
+  
+}
+#sidePlate p {
+  font-size: 2.7vh;
+}
+
+
+.vertical-text {
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  margin-bottom: 0;
+  padding: 10px 0;
+} 
+.title-border {
+  border-bottom: solid 0.5px;
+  margin-bottom: 0;
+  padding: 10px 0;
 }
 
 #sideInfo {
-  position: relative;
+position: fixed;
+font-size: 1rem;
+top: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+align-content: center;
+padding: 20px;
+width: 100vw;
+height: 100vh;
+height: fit-content;
 }
 
 
@@ -160,7 +197,7 @@ nav li:hover {
   width: 800px;
   height: 550px;
   position: relative;
- // overflow: hidden;: hidden;
+  overflow: hidden;
   margin-left: -100px;
   margin-top: -300px;
 }
@@ -168,7 +205,7 @@ nav li:hover {
   width: 500px;
   height: 550px;
   position: relative;
-  //overflow: hidden;: hidden;
+  overflow:  hidden;
   margin-left: 1450px;
   margin-top: -1000px;
 }
