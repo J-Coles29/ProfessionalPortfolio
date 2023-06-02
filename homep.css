@@ -237,7 +237,7 @@ height: fit-content;
 
 
 .menuList .ul{
- 
+  
   display: flex;
   flex-direction: row-gap;
   justify-content: flex-end;
@@ -250,6 +250,7 @@ height: fit-content;
 }
 
 .journey {
+  backdrop-filter: blur(15px);
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
@@ -262,12 +263,17 @@ height: fit-content;
 
 }
 
+.blurbox {
+  border: solid blur 10px;
+  backdrop-filter: blur(15px);
+}
+
 .studies {
  /* stroke effect */
   -webkit-text-fill-color: #1e1e1e; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
-   
+  backdrop-filter: blur(15px);
   //margin-top: -1825px;
  // margin-right: -1600px;
  // width: fit-content;
@@ -293,9 +299,36 @@ height: fit-content;
   text-align: left;
   text-transform: uppercase;
   color: #F2C7E2;
-  
+  backdrop-filter: blur(15px);
   }
 
+  .projects {
+       -webkit-text-fill-color: #1e1e1e; 
+       -webkit-text-stroke-width: 0.5px;
+       -webkit-text-stroke-color: white;
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 2.8rem;
+       line-height: 58px;
+       text-align: left;
+       letter-spacing: 0.2em;
+       text-transform: uppercase;
+       backdrop-filter: blur(15px);
+  }
+
+  .connect {
+    backdrop-filter: blur(15px);
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 2.8rem;
+       line-height: 58px;
+       text-align: left;
+       letter-spacing: 0.2em;
+       text-transform: uppercase;
+       color: #F2C7E2;
+  }
 
 
 
