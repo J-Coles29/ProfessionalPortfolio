@@ -221,55 +221,80 @@ height: fit-content;
 }
 
 #mainFocus {
+  height: 57vh;
+  width: 57vw;
+ // position: fixed;
+  margin-top: -1000px;
   display: flex;
   flex-direction: row-gap;
-  align: center;
-  height: fit-content;
-  justify-content: space-between;
-  font-size: 3.5rem;
-  font-align: left;
-}
-
-#mainFocus .journey {
+  justify-content: flex-end;
+  align-items: row;
+  align-content: left;
+  padding: 0px;
   
-height: fit-content;
-margin-top: -1050px;
-margin-left: 700px;
-font-family: 'Marvel';
-font-style: normal;
-font-weight: 400;
-font-size: 3.5rem;
-line-height: 50px;
+  
+}
 
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #F2C7E2;
+
+.menuList .ul{
+ 
+  display: flex;
+  flex-direction: row-gap;
+  justify-content: flex-end;
+  align-items: row;
+  align-content: left;
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  
+}
+
+.journey {
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #F2C7E2;
 
 }
 
-#mainFocus .studies {
- 
- 
+.studies {
  /* stroke effect */
   -webkit-text-fill-color: #1e1e1e; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
-
-  margin-top: -975px;
-  margin-left: -720px;
+   
+  //margin-top: -1825px;
+ // margin-right: -1600px;
+ // width: fit-content;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   line-height: 58px;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  
- 
-
 }
 
+.xp {
+  
+ // margin-left: 1350px;
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #F2C7E2;
+  
+  }
 
 
 
