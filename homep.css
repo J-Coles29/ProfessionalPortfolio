@@ -30,9 +30,6 @@ body {
 #navlinks .navbar-nav {
     backdrop-filter: blur(15px);
     border-radius: 8px;
-    text-decoration-line: line-through;
-    text-decoration-color: #fcd7f9;
-    text-decoration-thickness: 0.5px;
     margin-top: 15px;
     overflow: hidden;
     
@@ -64,7 +61,7 @@ nav li:hover {
 
 #buttonnav .navbar-toggler {
     color: #fcd7f9;
-    font-size: 2.0rem;
+    font-size: 1.0rem;
     backdrop-filter: blur(15px);
    
 }
@@ -112,8 +109,12 @@ nav li:hover {
 }*/
 
 #namePlate {
-  backdrop-filter: blur(5px);
-  font-size: 3.5vh;
+ // backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
   position: flex;
   font-family: 'Marvel';
   font-style: normal;
@@ -121,7 +122,7 @@ nav li:hover {
   line-height: 20px;
   display: flex;
   color: #fcd7f9;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 #sidePlate {
@@ -129,9 +130,8 @@ nav li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(5px);
   font-size: 1rem;
-  width: 10px;
+  width: 3px;
   height: 100vh;
   font-family: 'Marvel';
   font-style: italic;
@@ -140,10 +140,11 @@ nav li:hover {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 10px;
+  padding-right: 15px;
   margin: 30px;
   color: #FFFFFF;
-  opacity: 0.75;
+  ///opacity: 0.75;
+  
   
 }
 #sidePlate p {
@@ -156,17 +157,62 @@ nav li:hover {
   text-orientation: upright;
   writing-mode: vertical-rl;
   margin-bottom: 0;
-  padding: 10px 0;
+  padding: 5px;
+  margin-right: -40px;
+  
 } 
-.title-border {
-  border-bottom: solid 0.5px;
+
+.vertical-text1 {
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
   margin-bottom: 0;
-  padding: 10px 0;
+  padding: 5px;
+  margin-right: -20px;
+  font-size: 3rem;
+ 
+} 
+.vertical-text2 {
+  border-bottom: dotted 2px;
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  margin-bottom: 0;
+  padding: 5px;
+  margin-right: -40px;
+  
+} 
+.vertical-text3 {
+  text-align: center;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  margin-bottom: 0;
+  padding: 5px;
+  margin-right: -40px;
+  border-bottom:  dotted 2.0px;
+} 
+
+.title-border {
+
+  margin-bottom: 0;
+  padding: 5px 0;
+  margin-left: 75px;
+  font-size: 2rem;}
+
+.title-border2 {
+
+  border-bottom: dotted 2.0px;
+  
+  margin-bottom: 0;
+  padding: 5px 0;
+  margin-left: 75px;
+  font-size: 2rem;
 }
+
 
 #sideInfo {
 position: fixed;
-font-size: 1rem;
+font-size: 1.5rem;
 top: 0;
 display: flex;
 flex-direction: row;
@@ -178,6 +224,70 @@ width: 100vw;
 height: 100vh;
 height: fit-content;
 }
+
+#mainFocus {
+  display: flex;
+  flex-direction: row;
+}
+
+#mainFocus .journey {
+//position: flex;
+width: 541px;
+height: 91px;
+left: 352px;
+margin-top: -800px;
+font-family: 'Marvel';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #F2C7E2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #app{
@@ -195,7 +305,7 @@ height: fit-content;
 
 .container {
   width: 800px;
-  height: 550px;
+  height: 750px;
   position: relative;
   overflow: hidden;
   margin-left: -100px;
@@ -203,7 +313,7 @@ height: fit-content;
 }
 .container2 {
   width: 500px;
-  height: 550px;
+  height: 750px;
   position: relative;
   overflow:  hidden;
   margin-left: 1450px;
