@@ -82,8 +82,8 @@ nav li:hover {
 #branch1Right.sakura2 {
   
   object-fit: contain;
-  margin-top: -275px;
-
+  margin-top: -150px;
+  margin-right: -50px;
   max-width: 100%;
   max-height: 100%;
   opacity: 0.35;
@@ -125,14 +125,14 @@ nav li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   position: flex;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   display: flex;
-  color: #fcd7f9;
+  color: #f67dea;
 }
 
 #namePlate p {
@@ -157,13 +157,13 @@ nav li:hover {
   text-transform: uppercase;
   padding-right: 15px;
   margin: 30px;
-  color: #FFFFFF;
-  margin-top: 15px;
+  color: #fcd7f9;
+  margin-top: -35px;
   
   
 }
 #sidePlate p {
-  font-size: 2.2vh;
+  font-size: 1.6rem;
   backdrop-filter: blur(10px);
 }
 
@@ -185,7 +185,7 @@ nav li:hover {
   margin-bottom: 40px;
   padding: 5px;
   margin-right: -40px;
-  font-size: 2.8rem;
+  font-size: 3.3rem;
  
  
 } 
@@ -240,45 +240,56 @@ padding: 5px;
 width: 100vw;
 height: 100vh;
 height: fit-content;
-margin-left: -30px;
+margin-left: -10px;
+margin-top: 50px;
 }
 
-
-#mainFocus {
-  height: 55vh;
-  width: 55vw;
-  position: flex;
-  //margin-bottom: 180px;
-  margin-top: -850px;
-  margin-left: 80px;
+#contact1 {
+ // margin-bottom: 180px;
+  margin-top: -250px;
+  margin-right: 1600px;
   bottom: 0px;
-  display: flex;
-  flex-direction: row-gap;
+  position: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: row;
   align-content: left;
-  top: -1050px;
-  
-  
+}
+
+
+
+#mainFocus {
+  max-height: 50vh;
+  max-width: 50vw;
+  position: flex;
+  margin-bottom: 180px;
+  margin-top: -850px;
+  margin-left: 100px;
+  padding-to
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: row;
+  align-content: left;
 }
 
 #mainFocus .menuList {
-// border: solid blur 10px;
+
   backdrop-filter: blur(10px); 
   border-radius: 30px;
-  margin-top: -300px;
-  padding-top: 50px;
+  
 }
 
 .menuList .ul{
-  
+ 
   display: flex;
   flex-direction: row-gap;
   justify-content: flex-end;
   align-items: row;
   align-content: left;
   text-align: center;
- 
+  position: flex;
   text-orientation: upright;
   writing-mode: vertical-rl;
 
@@ -421,7 +432,7 @@ margin-left: -30px;
   width: 900px;
   height: 750px;
   position: relative;
-  overflow: hidden;
+  //overflow: hidden;
   margin-left: -100px;
   margin-top: -300px;
 }
@@ -429,7 +440,7 @@ margin-left: -30px;
   width: 500px;
   height: 750px;
   position: relative;
-  overflow: hidden;
+ // overflow: hidden;
   margin-left: 1450px;
   margin-top: -1000px; 
 }
