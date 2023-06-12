@@ -2,7 +2,7 @@ body, html {
   max-width: 100vw;
   height: 100vh;
   font-size: 1em;
-  
+ 
  
   
 }
@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 #mainNav {
     font-family: "Marvel";
     font-size: 1.2rem;
-    
+   // width: 800px;
 }
 
 
@@ -44,6 +44,7 @@ body::-webkit-scrollbar {
     border-radius: 8px;
     margin-top: 15px;
     overflow: hidden;
+  //  width: 700px;
     
 }
 
@@ -87,7 +88,11 @@ nav li:hover {
   max-width: 100%;
   max-height: 100%;
   opacity: 0.35;
+ // overflow: hidden;
+}
 
+#branch1Right {
+ // overflow: hidden;
 }
 
 .images {
@@ -96,6 +101,8 @@ nav li:hover {
   justify-content: space-between;
   align-items: space-between;
  // width: 100vw;
+// display: grid;
+// height: 100%;
 }
 
 
@@ -103,7 +110,7 @@ nav li:hover {
   
   object-fit: contain;
   display: flex;
-  min-width: 52%;
+ // margin: auto;
   max-width: 100%;
   max-height: 100%;
   position: flex;
@@ -115,6 +122,27 @@ nav li:hover {
 #tree1left {
   margin-left: -300px;
   margin-bottom: -200px;
+ 
+  
+}
+
+#tree2left.sakura2 {
+  
+  object-fit: contain;
+  display: flex;
+  min-width: 52%;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.20;
+  transform: scaleX(-1);
+  
+}
+
+#tree2left {
+  margin-left: 1150px;
+  margin-bottom: -400px;
+  overflow: hidden;
  
   
 }
@@ -246,14 +274,19 @@ margin-top: 50px;
 
 #contact1 {
  // margin-bottom: 180px;
-  margin-top: -250px;
+  margin-top: -450px;
+  margin-bottom: -200px;
   margin-right: 1600px;
+  width: 10vw;
+  height: 25vh;
+  padding-top: 100px;
+  
   bottom: 0px;
   position: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: row;
-  align-content: left;
+  align-content: left;  
 }
 
 
@@ -263,7 +296,7 @@ margin-top: 50px;
   max-width: 50vw;
   position: flex;
   margin-bottom: 180px;
-  margin-top: -850px;
+  margin-top: -650px;
   margin-left: 100px;
   padding-to
   bottom: 0px;
@@ -300,7 +333,7 @@ margin-top: 50px;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 2.8vw;
   line-height: 50px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -318,7 +351,7 @@ margin-top: 50px;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 2.8vw;
   line-height: 58px;
   text-align: left;
   letter-spacing: 0.2em;
@@ -331,7 +364,7 @@ margin-top: 50px;
   font-family: 'Marvel';
   font-style: normal;
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 2.8vw;
   line-height: 50px;
   letter-spacing: 0.2em;
   text-align: left;
@@ -347,7 +380,7 @@ margin-top: 50px;
        font-family: 'Marvel';
        font-style: normal;
        font-weight: 400;
-       font-size: 2.8rem;
+       font-size: 2.8vw;
        line-height: 58px;
        text-align: left;
        letter-spacing: 0.2em;
@@ -360,13 +393,34 @@ margin-top: 50px;
        font-family: 'Marvel';
        font-style: normal;
        font-weight: 400;
-       font-size: 2.8rem;
+       font-size: 2.8vw;
        line-height: 58px;
        text-align: left;
        letter-spacing: 0.2em;
        text-transform: uppercase;
        color: #F2C7E2;
   }
+
+
+
+
+
+
+  * {
+    margin: 10px;
+    padding: 10;
+  }
+
+#contact {
+    display: grid;
+    height: 100%;
+}
+
+#contact .conLinks {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
 
 
 #link {
@@ -414,6 +468,31 @@ margin-top: 50px;
   border-radius: 3px;
   border: 2px solid #f67dea;
 }
+
+
+#page2 {
+
+margin-top: -600px;
+
+}
+
+#page2 .jHeader {
+      -webkit-text-fill-color: #1e1e1e; 
+       -webkit-text-stroke-width: 0.5px;
+       -webkit-text-stroke-color: white;
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 4.5vw;
+       line-height: 58px;
+       text-align: left;
+       letter-spacing: 0.4em;
+       text-transform: uppercase;
+       margin-left: 50px;
+}
+
+
+
 
 #app{
   height: 100vh;

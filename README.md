@@ -1,2 +1,2 @@
 # ProfessionalPortfolio
-Professional Portfolio to showcase my projects and current progress. 
+Professional Portfolio to showcase myself, my projects and current personal development. 
