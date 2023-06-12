@@ -10,7 +10,7 @@ body, html {
 html {
   
   overflow: scroll;
-
+  scroll-behavior: smooth;
 }
 
 body {
@@ -134,11 +134,91 @@ nav li:hover {
 
 #tree2left {
   margin-left: 1150px;
-  margin-bottom: -400px;
+  margin-bottom: -300px;
   overflow: hidden;
  
   
 }
+
+
+#tree3left.sakura3 {
+  
+  object-fit: contain;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.25;
+  
+  
+}
+
+#tree3left {
+  margin-left: -200px;
+  margin-top: 900px;
+  margin-bottom: -800px;
+  
+}
+
+#tree4left.sakura4 {
+  
+  object-fit: contain;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.25;
+  
+}
+
+#tree4left {
+  
+  margin-top: 300px;
+  margin-bottom: -800px;
+  transform: scaleX(-1);
+  margin-left: 1350px;
+}
+
+#tree5left.sakura5 {
+  
+  object-fit: contain;
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  max-width: 100%;
+  max-height: 100%;
+  position: flex;
+  opacity: 0.25;
+  
+}
+
+#tree5left {
+  margin-left: -750px;
+  margin-top: 300px;
+  
+  
+}
+#tree6left.sakura6 {
+  
+  object-fit: contain;
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  max-width: 150%;
+  max-height: 150%;
+  position: flex;
+  opacity: 0.25;
+  
+}
+
+#tree6left {
+  
+  margin-top: -650px;
+  margin-bottom: -800px;
+  transform: scaleX(-1);
+  margin-left: 600px;
+}
+
 
 #namePlate {
  
@@ -402,8 +482,6 @@ margin-top: 50px;
   
 }
 
-
-
 #link {
   width: 55px;
   height: 55px;
@@ -454,7 +532,7 @@ margin-top: 50px;
 
 #page2 {
 
-margin-top: -600px;
+margin-top: -900px;
 
 }
 
@@ -471,10 +549,93 @@ margin-top: -600px;
        letter-spacing: 0.4em;
        text-transform: uppercase;
        margin-left: 50px;
+       
+       
+       
+}
+
+#page2 .jContent {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 60px;
+}
+
+
+#page3 {
+  margin-top: -100px;
+}
+
+#page3 .sHeader {
+      color: #F2C7E2;
+
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 3.5vw;
+       line-height: 58px;
+       text-align: left;
+       letter-spacing: 0.4em;
+       text-transform: uppercase;
+       margin-left: 50px;
+}
+
+#page3 .sContent {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 60px;
 }
 
 
 
+#page4 {
+  margin-top: 550px;
+}
+
+#page4 .pHeader {
+      color: white;
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 3.5vw;
+       line-height: 58px;
+       text-align: left;
+       letter-spacing: 0.4em;
+       text-transform: uppercase;
+       margin-left: 50px;
+}
+
+#page4 .pContent {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 60px;
+}
+
+#page5 {
+  margin-left: -100px;
+  text-align: center;
+}
+
+#page5 .cHeader {
+  -webkit-text-fill-color: #1e1e1e; 
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fcd7f9;
+       font-family: 'Marvel';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 1.8vw;
+       line-height: 58px;
+       text-align: center;
+       letter-spacing: 0.4em;
+       text-transform: uppercase;
+       margin-left: 50px;
+       margin-top: -130px;
+}
+
+#page5 .cContent {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 60px; 
+}
 
 #app{
   height: 100vh;
