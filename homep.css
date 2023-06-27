@@ -189,7 +189,7 @@ nav li:hover {
   max-height: 100%;
   position: flex;
   opacity: 0.25;
-  
+  overflow: hidden;
 }
 
 #tree5left {
@@ -709,7 +709,7 @@ margin-top: -900px;
        text-align: center;
        letter-spacing: 0.4em;
        text-transform: uppercase;
-       margin-left: 50px;
+       
        margin-top: -130px;
 }
 
@@ -735,12 +735,13 @@ form {
   font-size: 18px;
   border-radius: 2px;
   line-height: 22px;
-  background-color: transparent;
+  background-color: #1e1e1e;
   border:2px solid #F2C7E2;
   padding: 20px;
   margin-bottom: 15px;
   width:100%;
   text-align: left;
+  
 }
 
 .feedback-input:focus { border:1px solid #F67DEA; }
@@ -749,6 +750,7 @@ textarea {
   height: 250px;
   line-height: 150%;
   resize:vertical;
+  background-color: #1E1E1E;
 }
 
 [type="submit"] {
@@ -798,18 +800,20 @@ textarea {
 
 .container4 {
   width: 500px;
-  height: 750px;
+  height: 650px;
   position: relative;
   margin-left: 300px;
   margin-top: 300px;
+  overflow: hidden;
 }
 
 .container5 {
   width: 500px;
-  height: 750px;
+  height: 650px;
   position: relative;
   margin-left: 1350px;
   margin-top: -350px;
+  overflow: hidden;
 }
 .loader {
   width: 500px;
