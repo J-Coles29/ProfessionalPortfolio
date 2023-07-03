@@ -369,7 +369,8 @@ nav li:hover {
   text-decoration-line: line-through;
   text-decoration-color: #ce0ebb;
 }
-
+ 
+/* NEED TO FIX NAV BUTTON SHOWING UP WHEN RESIZED, IS NOT SHOWING UP */
 
 #contact1 {
 
