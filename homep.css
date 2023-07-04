@@ -139,8 +139,8 @@ nav li:hover {
 
 #tree2left {
   margin-left: 1150px;
-  margin-bottom: -400px;
-  margin-top: 200px;
+  margin-bottom: -200px;
+  margin-top: -250px;
   object-fit: contain;
  
   
@@ -649,7 +649,7 @@ margin-top: 50px;
 }
 
 #contentPage {
-  margin-top: -320px;
+  margin-top: -150px;
 
   
   }
