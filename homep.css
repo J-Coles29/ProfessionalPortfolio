@@ -39,6 +39,8 @@ body::-webkit-scrollbar {
   font-family: "Marvel";
   font-size: 1.6rem;
   width: 1000px;
+  display: flex;
+  flex-direction: row;
 }
 
 #navlinks .navbar-nav {
@@ -77,7 +79,7 @@ nav li:hover {
 
 #buttonnav .navbar-toggler {
   color: #fcd7f9;
-  font-size: 2rem;
+  font-size: 3rem;
   backdrop-filter: blur(15px);
 }
 
