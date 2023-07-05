@@ -306,6 +306,8 @@ nav li:hover {
 
 .button4 a {
   color:#f2c7e2;
+  text-decoration: none;
+  cursor: none;
 }
 .button4 {
 --light: #f67dea;
@@ -379,22 +381,23 @@ cursor: none;
 
 
 #nameHeader img {
-  margin-left: -220px;
-  height: 500px;
-  margin-top: -810px;
+  margin-left: -219px;
+  height: 493px;
+  margin-top: -725px;
   margin-bottom: -155px;
-  backdrop-filter: blur(20px);
-  border: #f2c7e2 2px solid;
+  backdrop-filter: blur(5px);
+  border: #f2c7e2 1px solid;
   padding: 40px;
-  
+  border-radius: 5px;
 }
 
 #name2Header img {
-  margin-left: 965px;
-  margin-top: -750px;
-  height: 500px;
-  backdrop-filter: blur(20px);
-  border: #f2c7e2 2px solid;
+  margin-left: 967px;
+  margin-top: -662px;
+  height: 493px;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  border: #f2c7e2 1px solid;
   padding: 40px;
 }
 
@@ -411,12 +414,20 @@ cursor: none;
   margin-top: -400px;
   font-family: "Marvel";
   line-height: 80%;
-  border: #f2c7e2 2px solid;
+  border: #f2c7e2 1px solid;
   border-radius: 5px;
-  padding: 120px;
-  padding-left: 220px;
+  padding: 85px;
+  padding-left: 205px;
   opacity: 0.85;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
+}
+
+#mainHeaders p:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #E9A0CE,
+              0 0 25px #E9A0CE,
+              0 0 50px #E9A0CE,
+              0 0 100px #E9A0CE;
 }
 
 #mainHeaders {
@@ -425,7 +436,7 @@ cursor: none;
   width: 950px;
   margin-top: -1250px;
   margin-bottom: 400px;
-  margin-left: 550px;
+  margin-left: 520px;
   padding: 10px, 15px;
 }
 
@@ -718,13 +729,21 @@ cursor: none;
   font-family: "Marvel";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.8vw;
+  font-size: 2.8vw;
   line-height: 58px;
   text-align: center;
   letter-spacing: 0.4em;
   text-transform: uppercase;
 
   margin-top: -130px;
+}
+
+#letsConnect .cHeader:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #E9A0CE,
+              0 0 25px #E9A0CE,
+              0 0 50px #E9A0CE,
+              0 0 100px #E9A0CE;
 }
 
 #contactList2 .cContent {
