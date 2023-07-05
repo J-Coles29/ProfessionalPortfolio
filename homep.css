@@ -182,10 +182,10 @@ nav li:hover {
 
 
 .button {
-  --light: #fff;
+  --light: #1e1e1e;
   --dark: #414856;
   --border: #C3C8DE;
-  --background: #4F29F0;
+  --background: #f0a5ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,6 +194,8 @@ nav li:hover {
   padding: 0 30px;
   width: auto;
   height: 60px;
+  font-size: 1.5rem;
+  margin-left: 170px;
   border-radius: 2px;
   border: 1px solid var(--border);
   background: none;
@@ -206,10 +208,10 @@ nav li:hover {
     background .15s linear;
   cursor: none;
   > span {
+    width: 200px;
     display: inline-block;
     position: relative;
     z-index: 2;
-    font: 400 16px 'Varela Round', sans-serif;
     transition: transform .15s linear;
   }
   &.fill {
