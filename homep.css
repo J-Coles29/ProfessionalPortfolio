@@ -1,91 +1,75 @@
-body, html {
+body,
+html {
   max-width: 100vw;
   height: 100vh;
   font-size: 1em;
   overflow-x: hidden;
- 
-  
 }
-#wholePage{
+#wholePage {
   max-width: 100vw;
   height: 100vw;
-  
+
   padding: 0;
-
-
 }
 
-
 body {
-    background: #1E1E1E;
-    font-family: "Marvel", sans-serif;
-    min-height: 100vh;
-    min-width: 100vw;
-    scroll-behavior: smooth;
+  background: #1e1e1e;
+  font-family: "Marvel", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
   background-color: #e7a5cf;
 }
 
-
-
-
 #navlinks .nav-link:hover {
-    color: #f67dea;
-    
+  color: #f67dea;
 }
 
 #mainNav {
-    font-family: "Marvel";
-    font-size: 1.2rem;
-    
+  font-family: "Marvel";
+  font-size: 1.2rem;
 }
 
-
 #navlinks .navbar-nav {
-    backdrop-filter: blur(15px);
-    border-radius: 8px;
-    margin-top: 15px;
-    overflow: hidden;
-  
-    
+  backdrop-filter: blur(15px);
+  border-radius: 8px;
+  margin-top: 15px;
+  overflow: hidden;
 }
 
 nav li {
-    display: inline-block;
-    margin-top: -20px;
-    padding: 15px;
+  display: inline-block;
+  margin-top: -20px;
+  padding: 15px;
 }
 
 nav li:hover {
-    text-decoration-line: line-through;
-    text-decoration-color: #ce0ebb;
+  text-decoration-line: line-through;
+  text-decoration-color: #ce0ebb;
 }
 
 #mainNav .navbar-brand {
-    color: #fcd7f9;
-    font-size: 1.5rem;
-    margin-top: 10px;
-    font-weight: bold;
-    border: 2px solid #f67dea;
-    padding-left: 5px;
-    padding-right: 5px;
-    backdrop-filter: blur(15px);
-    border-radius: 4px;
-
+  color: #fcd7f9;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+  border: 2px solid #f67dea;
+  padding-left: 5px;
+  padding-right: 5px;
+  backdrop-filter: blur(15px);
+  border-radius: 4px;
 }
 
 #buttonnav .navbar-toggler {
-    color: #fcd7f9;
-    font-size: 1.0rem;
-    backdrop-filter: blur(15px);
-   
+  color: #fcd7f9;
+  font-size: 1rem;
+  backdrop-filter: blur(15px);
 }
 
-
 #branch1Right.sakura2 {
-  
   object-fit: fill;
   margin-top: -80px;
   margin-right: -100px;
@@ -96,7 +80,6 @@ nav li:hover {
   opacity: 0.25;
 }
 
-
 .images {
   display: flex;
   flex-direction: row;
@@ -104,37 +87,30 @@ nav li:hover {
   align-items: space-between;
 }
 
-
 #tree1left.sakura {
-  
   object-fit: contain;
   display: flex;
   max-width: 100vw;
   max-height: 100vh;
   position: flex;
   opacity: 0.25;
-  width: 800px; 
-  
+  width: 800px;
 }
 
 #tree1left {
   margin-left: -300px;
   margin-bottom: -200px;
- 
-  
 }
 
 #tree2left.sakura2 {
-  
   object-fit: contain;
   display: flex;
   min-width: 52%;
   max-width: 100%;
   max-height: 100%;
   position: flex;
-  opacity: 0.20;
+  opacity: 0.2;
   transform: scaleX(-1);
-  
 }
 
 #tree2left {
@@ -142,33 +118,25 @@ nav li:hover {
   margin-bottom: -200px;
   margin-top: -250px;
   object-fit: contain;
- 
-  
 }
 
-
 #tree3left.sakura3 {
-  
   object-fit: contain;
   display: flex;
   max-width: 100%;
   max-height: 100%;
   position: flex;
   opacity: 0.25;
-  
-  
 }
 
 #tree3left {
   margin-left: -200px;
   margin-top: -300px;
-  
+
   object-fit: contain;
 }
 
-
 #tree5left.sakura5 {
-  
   object-fit: contain;
   display: flex;
   height: 80vh;
@@ -177,17 +145,14 @@ nav li:hover {
   max-height: 100%;
   position: flex;
   opacity: 0.25;
-  
 }
 
 #tree5left {
   margin-left: -260px;
   margin-top: 100px;
   object-fit: contain;
-  
 }
 #tree6left.sakura6 {
-  
   object-fit: contain;
   display: flex;
   height: 80vh;
@@ -196,7 +161,6 @@ nav li:hover {
   max-height: 150%;
   position: flex;
   opacity: 0.25;
-  
 }
 
 #tree6left {
@@ -206,82 +170,170 @@ nav li:hover {
   margin-left: 1200px;
 }
 
-.button {
-  --light: #fff;
-  --dark: #414856;
-  --border: #C3C8DE;
-  --background: #4F29F0;
+:root {
+  --base: #1e1e1e;
+  --lighten: #3e3e3e;
+  --darken: #0e0e0e;
+  --white: #ffeffd;
+  --shadow: 4px 4px 12px var(--darken), -6px -6px 12px var(--lighten);
+  --inset: inset 6px 6px 12px var(--darken), inset -6px -6px 12px var(--lighten);
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  border: 0;
-  padding: 0 30px;
-  width: auto;
-  height: 60px;
-  border-radius: 2px;
-  border: 1px solid var(--border);
-  background: none;
-  color: var(--dark);
-  cursor: pointer;
-  outline: none;
-  box-shadow: 0 10px 30px rgba(#414856, 0.1);
-  transition: transform .1s linear,
-    color .1s linear,
-    background .15s linear;
-  cursor: none;
-  > span {
-    display: inline-block;
-    position: relative;
-    z-index: 2;
-    font: 400 16px 'Varela Round', sans-serif;
-    transition: transform .15s linear;
-  }
-  &.fill {
-    border: 0;
-    color: var(--light);
-    background: var(--background);
-  }
+  background-color: var(--base);
+  overflow: hidden;
 }
 
-.cursor {
-  --cursor: #C3C8DE;
-  position: fixed;
-  top: -50px;
-  z-index: 99;
+button {
+  z-index: 10;
+  position: absolute;
   width: 40px;
   height: 40px;
+  background-color: var(--base);
+  color: var(--white);
+  border: none;
   border-radius: 50%;
-  background: none;
-  border: solid 2px var(--cursor);
-  pointer-events: none;
-  transition: transform .3s ease,
-    background .3s ease,
-    border-color .3s ease;
+  box-shadow: var(--shadow);
+  cursor: pointer;
 }
-[cursor="link"] {
-  &:hover {
-    ~ .cursor {
-      mix-blend-mode: difference;
-      transform: scale(1.5);
-      cursor: none;
-      background: #fff;
-      border-color: #fff;
-    }
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.clicked {
+  animation: shadowFadeOut 200ms ease-out forwards,
+    shadowFadeIn 200ms 300ms ease-in forwards;
+}
+
+button.clicked svg {
+  animation: fillFadeOut 200ms ease-out forwards,
+    fillFadeIn 200ms 300ms ease-in forwards;
+}
+
+.wave {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 60px var(--darken), -20px -20px 60px var(--lighten);
+  opacity: 0;
+  animation: fadeIn 400ms ease-out forwards, outside_grow 5s ease-out,
+    fadeOut 3s 2s forwards;
+}
+
+.wave::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow: inset 20px 20px 60px var(--darken), inset -20px -20px 60px var(--lighten);
+  animation: inside_grow 5s ease-out;
+}
+
+/** One of my worst keyframes, animate width & height.. */
+@keyframes outside_grow {
+  from {
+    width: 20px;
+    height: 20px;
+  }
+  to {
+    width: 900px;
+    height: 900px;
   }
 }
 
+/** This one is ugly too */
+@keyframes inside_grow {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    width: 880px;
+    height: 880px;
+  }
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes shadowFadeIn {
+  0% {
+    box-shadow: var(--inset);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--shadow);
+  }
+}
+
+@keyframes shadowFadeOut {
+  0% {
+    box-shadow: var(--shadow);
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: var(--inset);
+  }
+}
+
+@keyframes fillFadeOut {
+  from {
+    fill: none;
+  }
+  to {
+    fill: currentColor;
+  }
+}
+
+@keyframes fillFadeIn {
+  from {
+    fill: currentcolor;
+  }
+  to {
+    fill: none;
+  }
+}
 
 
 #nameHeader img {
   margin-left: 20px;
-
   height: 400px;
- 
-
 }
-
 
 #name2Header img {
   margin-left: 750px;
@@ -291,32 +343,29 @@ nav li:hover {
 
 #mainHeaders p {
   width: 650px;
-  color:#F2C7E2;
+  color: #f2c7e2;
   position: flex;
   display: row;
-  font-size: 8.0vw;
+  font-size: 8vw;
   justify-content: wrap;
   align-content: wrap;
   margin-left: 70px;
   margin-top: -400px;
   font-family: "Marvel";
   line-height: 80%;
-  border: #F2C7E2 2px solid;
+  border: #f2c7e2 2px solid;
   border-radius: 5px;
   padding: 25px;
-
 }
 
 #mainHeaders {
-
-  border-radius: 5px; 
+  border-radius: 5px;
   height: 450px;
   width: 950px;
   margin-top: -1050px;
   margin-bottom: 400px;
   margin-left: 500px;
   padding: 10px, 15px;
- 
 }
 
 #mainFocus {
@@ -335,15 +384,12 @@ nav li:hover {
 }
 
 #mainFocus .menuList {
-
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   border-radius: 30px;
   margin-top: 500px;
-  
 }
 
-.menuList .ul{
- 
+.menuList .ul {
   display: flex;
   flex-direction: row-gap;
   justify-content: flex-end;
@@ -353,12 +399,10 @@ nav li:hover {
   position: flex;
   text-orientation: upright;
   writing-mode: vertical-rl;
-
 }
 
 .journey {
-  
-  font-family: 'Marvel';
+  font-family: "Marvel";
   font-style: normal;
   font-weight: 400;
   font-size: 2.8vw;
@@ -366,23 +410,19 @@ nav li:hover {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: left;
-  color: #F2C7E2;
-
+  color: #f2c7e2;
 }
 
 #mainFocus a:hover {
   color: #f67dea;
   text-decoration: line-through 2px;
-
 }
 
-
 .studies {
- 
   -webkit-text-fill-color: #1e1e1e; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
-  font-family: 'Marvel';
+  font-family: "Marvel";
   font-style: normal;
   font-weight: 400;
   font-size: 2.8vw;
@@ -393,9 +433,7 @@ nav li:hover {
 }
 
 .xp {
-  
- 
-  font-family: 'Marvel';
+  font-family: "Marvel";
   font-style: normal;
   font-weight: 400;
   font-size: 2.8vw;
@@ -403,49 +441,43 @@ nav li:hover {
   letter-spacing: 0.2em;
   text-align: left;
   text-transform: uppercase;
-  color: #F2C7E2;
-  
-  }
+  color: #f2c7e2;
+}
 
-  .projects {
-       -webkit-text-fill-color: #1e1e1e; 
-       -webkit-text-stroke-width: 0.5px;
-       -webkit-text-stroke-color: white;
-       font-family: 'Marvel';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 2.8vw;
-       line-height: 58px;
-       text-align: left;
-       letter-spacing: 0.2em;
-       text-transform: uppercase;
-      
-  }
+.projects {
+  -webkit-text-fill-color: #1e1e1e;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  font-family: "Marvel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8vw;
+  line-height: 58px;
+  text-align: left;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
 
-  .connect {
-   
-       font-family: 'Marvel';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 2.8vw;
-       line-height: 58px;
-       text-align: left;
-       letter-spacing: 0.2em;
-       text-transform: uppercase;
-       color: #F2C7E2;
-  }
+.connect {
+  font-family: "Marvel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8vw;
+  line-height: 58px;
+  text-align: left;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #f2c7e2;
+}
 
 #mainFocus .a href {
   text-decoration-line: line-through;
   text-decoration-color: #ce0ebb;
-
 }
 
 #contactList .contact {
   max-width: 100%;
   height: auto;
-
-
 }
 
 #contact1 {
@@ -454,11 +486,10 @@ nav li:hover {
   margin-left: -30px;
   position: flex;
   flex-direction: row;
-  align-content: flex-start;  
+  align-content: flex-start;
   justify-content: flex-start;
-  align-items: row; 
+  align-items: row;
   max-width: 100vw;
-
 }
 
 #contact2 li {
@@ -486,31 +517,28 @@ nav li:hover {
   height: auto;
   margin-left: -375px;
   margin-top: -10px;
-
 }
-
 
 #letsConnect .footContact {
   display: flex;
   flex-direction: row;
 
-  font-family: 'Marvel';
+  font-family: "Marvel";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.0vw;
+  font-size: 1vw;
   text-align: center;
   letter-spacing: 0.2em;
-  color: #F2C7E2;
+  color: #f2c7e2;
   margin-left: 775px;
   margin-top: -20px;
-
 }
 
 #link {
   width: 55px;
   height: 55px;
   margin-top: -950px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
 }
@@ -518,7 +546,7 @@ nav li:hover {
   width: 55px;
   height: 55px;
   margin-top: -850px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
 }
@@ -526,118 +554,100 @@ nav li:hover {
   width: 55px;
   height: 55px;
   margin-top: -550px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-
 }
 #phone {
   width: 55px;
   height: 55px;
   margin-top: -650px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-  
-
 }
 #art {
   width: 55px;
   height: 55px;
   margin-top: -750px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-
 }
-
 
 #link2 {
   width: 55px;
   height: 55px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
- 
 }
 #git2 {
   width: 55px;
   height: 55px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-
 }
 #outlook2 {
   width: 55px;
   height: 55px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-
 }
 #phone2 {
   width: 55px;
   height: 55px;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   padding: 8px;
   border-radius: 3px;
-  
 }
 
 #contentPage {
   margin-top: -150px;
-
-  
-  }
+}
 
 #contentPage .pHeader {
-      -webkit-text-fill-color: #1e1e1e; 
-       -webkit-text-stroke-width: 0.5px;
-       -webkit-text-stroke-color: white;
-       font-family: 'Marvel';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 4.5vw;
-       line-height: 58px;
-       text-align: left;
-       letter-spacing: 0.4em;
-       text-transform: uppercase;
-       margin-left: 50px;
-       
-       
-       
+  -webkit-text-fill-color: #1e1e1e;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  font-family: "Marvel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.5vw;
+  line-height: 58px;
+  text-align: left;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-left: 50px;
 }
 
 #contentPage .jContent {
   font-size: 1.2rem;
   color: white;
   margin-left: 60px;
- 
 }
-
 
 #letsConnect {
   margin-top: -600px;
   text-align: center;
-
-
 }
 
 #letsConnect .cHeader {
-  -webkit-text-fill-color: #1e1e1e; 
+  -webkit-text-fill-color: #1e1e1e;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fcd7f9;
-       font-family: 'Marvel';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 1.8vw;
-       line-height: 58px;
-       text-align: center;
-       letter-spacing: 0.4em;
-       text-transform: uppercase;
-       margin-left: 50px;
-       margin-top: -130px;
+  font-family: "Marvel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: -130px;
 }
 
 #contactList2 .cContent {
@@ -647,57 +657,56 @@ nav li:hover {
   display: flex;
 }
 
-
-form { 
-  max-width:620px;
-  margin:50px 
-  auto; 
-  
-
-  }
+form {
+  max-width: 620px;
+  margin: 50px auto;
+}
 
 .feedback-input {
-  color:white;
+  color: white;
   font-family: Marvel;
   font-size: 18px;
   border-radius: 2px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #F2C7E2;
+  border: 2px solid #f2c7e2;
   padding: 20px;
   margin-bottom: 15px;
-  width:100%;
+  width: 100%;
   text-align: left;
 }
 
-.feedback-input:focus { border:1px solid #F67DEA; }
+.feedback-input:focus {
+  border: 1px solid #f67dea;
+}
 
 textarea {
   height: 250px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 [type="submit"] {
-  font-family: 'Marvel';
+  font-family: "Marvel";
   width: 50%;
-  background:#2e2e2e;
-  border-radius:5px;
-  border:0;
-  color:#F2C7E2;
-  font-size:22px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background: #2e2e2e;
+  border-radius: 5px;
+  border: 0;
+  color: #f2c7e2;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  margin-top: -4px;
+  font-weight: 700;
 }
-[type="submit"]:hover { background:#f67dea; }
+[type="submit"]:hover {
+  background: #f67dea;
+}
 
-#app{
+#app {
   height: 100vh;
   width: 100vw;
-
 }
 
 .container {
@@ -712,7 +721,7 @@ textarea {
   height: 750px;
   position: relative;
   margin-left: 1450px;
-  margin-top: -1000px; 
+  margin-top: -1000px;
 }
 
 .container3 {
@@ -722,7 +731,6 @@ textarea {
   margin-left: 1300px;
   margin-top: 200px;
 }
-
 
 .loader {
   width: 500px;
@@ -759,7 +767,6 @@ textarea {
   overflow: clip;
 }
 
-
 .loader span {
   width: 500px;
   height: 150px;
@@ -770,43 +777,43 @@ textarea {
   -moz-animation: loader 10s infinite linear;
   animation: loader 10s infinite linear;
 }
-.loader span:nth-child(5n+5) {
+.loader span:nth-child(5n + 5) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader span:nth-child(3n+2) {
+.loader span:nth-child(3n + 2) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader span:nth-child(2n+5) {
+.loader span:nth-child(2n + 5) {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
 
-.loader span:nth-child(3n+10) {
-  -webkit-animation-delay: 2.0s;
-  -moz-animation-delay: 2.0s;
-  animation-delay: 2.0s;
+.loader span:nth-child(3n + 10) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
-.loader span:nth-child(7n+2) {
+.loader span:nth-child(7n + 2) {
   -webkit-animation-delay: 3.5s;
   -moz-animation-delay: 3.5s;
   animation-delay: 3.5s;
 }
 
-.loader span:nth-child(4n+5) {
+.loader span:nth-child(4n + 5) {
   -webkit-animation-delay: 5.5s;
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s;
 }
 
-.loader span:nth-child(3n+7) {
+.loader span:nth-child(3n + 7) {
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   animation-delay: 8s;
@@ -902,7 +909,6 @@ textarea {
 
     -webkit-transform: translate(10vw, 100vh) rotateZ(360deg);
   }
-
 }
 .loader2 span {
   width: 500px;
@@ -914,43 +920,43 @@ textarea {
   -moz-animation: loader 10s infinite linear;
   animation: loader 10s infinite linear;
 }
-.loader2 span:nth-child(5n+5) {
+.loader2 span:nth-child(5n + 5) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader2 span:nth-child(3n+2) {
+.loader2 span:nth-child(3n + 2) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader2 span:nth-child(2n+5) {
+.loader2 span:nth-child(2n + 5) {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
 
-.loader2 span:nth-child(3n+10) {
-  -webkit-animation-delay: 2.0s;
-  -moz-animation-delay: 2.0s;
-  animation-delay: 2.0s;
+.loader2 span:nth-child(3n + 10) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
-.loader2 span:nth-child(7n+2) {
+.loader2 span:nth-child(7n + 2) {
   -webkit-animation-delay: 3.5s;
   -moz-animation-delay: 3.5s;
   animation-delay: 3.5s;
 }
 
-.loader2 span:nth-child(4n+5) {
+.loader2 span:nth-child(4n + 5) {
   -webkit-animation-delay: 5.5s;
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s;
 }
 
-.loader2 span:nth-child(3n+7) {
+.loader2 span:nth-child(3n + 7) {
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   animation-delay: 8s;
@@ -1048,8 +1054,6 @@ textarea {
   }
 }
 
-  
-
 .loader3 span {
   width: 500px;
   height: 150px;
@@ -1060,43 +1064,43 @@ textarea {
   -moz-animation: loader 10s infinite linear;
   animation: loader 10s infinite linear;
 }
-.loader3 span:nth-child(5n+5) {
+.loader3 span:nth-child(5n + 5) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader3 span:nth-child(3n+2) {
+.loader3 span:nth-child(3n + 2) {
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
 }
 
-.loader3 span:nth-child(2n+5) {
+.loader3 span:nth-child(2n + 5) {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
 
-.loader3 span:nth-child(3n+10) {
-  -webkit-animation-delay: 2.0s;
-  -moz-animation-delay: 2.0s;
-  animation-delay: 2.0s;
+.loader3 span:nth-child(3n + 10) {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
 }
 
-.loader3 span:nth-child(7n+2) {
+.loader3 span:nth-child(7n + 2) {
   -webkit-animation-delay: 3.5s;
   -moz-animation-delay: 3.5s;
   animation-delay: 3.5s;
 }
 
-.loader3 span:nth-child(4n+5) {
+.loader3 span:nth-child(4n + 5) {
   -webkit-animation-delay: 5.5s;
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s;
 }
 
-.loader3 span:nth-child(3n+7) {
+.loader3 span:nth-child(3n + 7) {
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   animation-delay: 8s;
