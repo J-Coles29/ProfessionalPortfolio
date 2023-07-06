@@ -374,6 +374,47 @@ cursor: none;
   }
 }
 
+
+#content h2 {
+  color:#1e1e1e;
+  font-size: 3.2rem;
+  margin-bottom: -150px;
+
+
+}
+
+
+
+#content {
+  margin-bottom: -800px;
+  column-count: 2;
+  column-gap: 40px;
+
+
+}
+
+
+#column1 {
+  background-color: #CCB2FF;
+  margin-top: 100px;
+  height: 700px;
+  border-radius: 6px;
+  opacity: 0.60;
+}
+
+#column2 {
+  background-color: #B2BFFF;
+  margin-top: 100px;
+  height: 700px;
+  border-radius: 6px;
+  opacity: 0.60;
+  
+}
+
+
+
+
+
 .footContact a {
   color:#e7a5cf;
   cursor: none;
