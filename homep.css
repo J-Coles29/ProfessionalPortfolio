@@ -375,9 +375,10 @@ cursor: none;
 }
 
 
+
 #content h2.text-center {
 
-  font-size: 4rem;
+  font-size: 3.2rem;
   margin-bottom: -150px;
   color: #f7dffc;
   text-shadow: 
@@ -390,7 +391,7 @@ cursor: none;
 
 #content h2.text-center2 {
 
-  font-size: 4rem;
+  font-size: 3.2rem;
   margin-bottom: -150px;
   margin-left: 300px;
   color: #f7dffc;
@@ -405,7 +406,7 @@ cursor: none;
 
 
 #content {
-  margin-bottom: -800px;
+  margin-bottom: -850px;
   column-count: 2;
   column-gap: 40px;
   margin-top: 50px;
@@ -416,7 +417,7 @@ cursor: none;
 
   background: rgb(204, 178, 255, 0.45);
   margin-top: 100px;
-  height: 700px;
+  height: 900px;
   border-radius: 6px;
 
 }
@@ -424,13 +425,20 @@ cursor: none;
 #column2 {
   background: rgb(178, 191, 255, 0.45);
   margin-top: 100px;
-  height: 700px;
+  height: 900px;
   border-radius: 6px;
 
   
 }
 
+#column1 ol {
+  margin-top: 150px;
+}
 
+#column1 ol li {
+  font-size: 1rem;  
+  color: white;
+}
 
 
 
@@ -550,31 +558,7 @@ cursor: none;
   text-decoration: line-through 2px;
 }
 
-.studies {
-  -webkit-text-fill-color: #1e1e1e; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: white;
-  font-family: "Marvel";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.8vw;
-  line-height: 58px;
-  text-align: left;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
 
-.xp {
-  font-family: "Marvel";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.8vw;
-  line-height: 50px;
-  letter-spacing: 0.2em;
-  text-align: left;
-  text-transform: uppercase;
-  color: #f2c7e2;
-}
 
 .projects {
   -webkit-text-fill-color: #1e1e1e;
@@ -644,7 +628,6 @@ cursor: none;
 
 #contact2 {
   margin-right: 20px;
- 
 }
 
 #contactList2 {
