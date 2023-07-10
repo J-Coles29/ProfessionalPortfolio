@@ -433,11 +433,18 @@ cursor: none;
 
 #column1 ol {
   margin-top: 150px;
+  list-style-image: url('')
+}
+
+#column1 li h2 {
+  color:#b2bfff;
+  font-family: 'JetBrains Mono';
 }
 
 #column1 ol li {
   font-size: 1rem;  
   color: white;
+
 }
 
 
