@@ -42,6 +42,7 @@ body::-webkit-scrollbar {
 #mainNav {
   font-family: "Marvel";
   font-size: 1.2rem;
+
 }
 
 #navlinks .navbar-nav {
@@ -323,7 +324,7 @@ padding: 30px;
 width: auto;
 height: 75px;
 font-size: 1.5rem;
-margin-top: 900px;
+margin-top: 860px;
 margin-bottom: -520px;
 margin-left: 860px;
 border-radius: 2px;
@@ -409,23 +410,23 @@ cursor: none;
   margin-bottom: -850px;
   column-count: 2;
   column-gap: 40px;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 
 #column1 {
 
   background: rgb(204, 178, 255, 0.45);
-  margin-top: 100px;
-  height: 900px;
+  margin-top: 75px;
+  height: 800px;
   border-radius: 6px;
 
 }
 
 #column2 {
   background: rgb(178, 191, 255, 0.45);
-  margin-top: 100px;
-  height: 900px;
+  margin-top: 75px;
+  height: 800px;
   border-radius: 6px;
 
   
@@ -433,21 +434,27 @@ cursor: none;
 
 #column1 ol {
   margin-top: 150px;
-  list-style-image: url('')
-}
+  list-style-type:circle;
+
+
+} 
 
 #column1 li h2 {
   color:#b2bfff;
   font-family: 'JetBrains Mono';
+  font-size: 
 }
 
 #column1 ol li {
-  font-size: 1rem;  
+  font-size: 1.7vh;  
   color: white;
 
 }
 
-
+ol .res {
+  font-family: 'JetBrains Mono';
+  font-size: 0.6vw;
+}
 
 .footContact a {
   color:#e7a5cf;
