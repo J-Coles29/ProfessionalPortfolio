@@ -381,7 +381,7 @@ cursor: none;
 
   font-size: 3.2rem;
   margin-bottom: -150px;
-  color: #f7dffc;
+  color: #b2bfff;
   text-shadow: 
     0 0 5px #DEA5E7,
     0 0 25px #DEA5E7,
@@ -418,7 +418,7 @@ cursor: none;
 
   background: rgb(204, 178, 255, 0.45);
   margin-top: 75px;
-  height: 800px;
+  height: 900px;
   border-radius: 6px;
 
 }
@@ -426,10 +426,19 @@ cursor: none;
 #column2 {
   background: rgb(178, 191, 255, 0.45);
   margin-top: 75px;
-  height: 800px;
+  height: 900px;
   border-radius: 6px;
 
   
+}
+
+#column2 ul {
+  list-style-type: none;
+  align-items: grid;
+}
+
+#column2 li h1 {
+  color: white;
 }
 
 #column1 ol {
@@ -442,18 +451,21 @@ cursor: none;
 #column1 li h2 {
   color:#b2bfff;
   font-family: 'JetBrains Mono';
-  font-size: 
+  font-size: 3vh;
 }
 
 #column1 ol li {
-  font-size: 1.7vh;  
+  font-size: 2vh;  
   color: white;
+  backdrop-filter: blur(3px);
 
 }
 
 ol .res {
   font-family: 'JetBrains Mono';
-  font-size: 0.6vw;
+  font-size: 1.3vh;
+  font-weight: lighter;
+  color: #f0a5ff;
 }
 
 .footContact a {
